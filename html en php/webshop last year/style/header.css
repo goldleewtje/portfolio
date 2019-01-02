@@ -1,0 +1,261 @@
+body
+{
+    margin:0;
+    font-family: sans-serif;
+    padding: 0;
+}
+.login {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+    right: 27%;
+}
+.space
+{
+    color:white;
+}
+.orange
+{
+    color:#FF9900;
+}
+.down-arrow
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color:white;
+}
+.unselectable:hover
+{
+    text-decoration: none;
+    color:white;
+}
+#container
+{
+    width:100%;
+    height:177px;
+
+}
+#base
+{
+    background: #0069B4;
+    width:100%;
+    height: 100px;
+}
+#logo
+{
+    float:left;
+    height:100%;
+    background-color: inherit;
+}
+#logo img
+{
+    height:100%;
+    width:100%;
+}
+#zoeken
+{   
+    float:left;
+    height:100%;
+    background-color: inherit;
+}
+#zoeken input
+{
+    width:100%;
+    height:25%;
+    margin-top: 50px;
+    transform: translateY(-50%);
+}
+#inloggen
+{
+    float:left;
+    height:100%;
+    margin-top: 5px;
+
+}
+#inloggen button
+{
+    border:0px;
+    margin-right:10px;
+    float:right;
+}
+#inloggen img
+{
+    width:0px;
+}
+.inloggentext
+{
+    margin-top:32px;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    width:30%;
+    height:36px;
+    line-height: normal;
+    background-color: #0069B4;
+}
+#winkelwagen
+{
+    margin-top: 30px;
+    float:left;
+    height:45px;
+}
+.left {
+    left:90% !important;
+}
+#winkelwagen img
+{
+    width:35px;
+    height:30px;
+}
+#winkelwagen button
+{
+    margin-top:5px;
+}
+#winkelwagen th
+{
+    font-weight: 100;
+    background-color:#F2F2F2;
+    font-weight: normal;
+
+}
+#winkelwagen td 
+{
+    font-size: 13px;
+    text-align: center;
+    width: 25%;
+    padding-top:5px;
+
+}
+.winkelbutton 
+{
+    border:0px;
+    font-size: 20px;
+    background-color: #0069B4;
+    display: table-cell;
+    vertical-align: bottom;
+    height:35px;
+}
+#winkelwagen .popover
+{
+    height:300px;
+}
+#winkelwagen .popover.bottom .arrow {
+    right:90% !important;
+}
+#info
+{
+    width:100%;
+    height:15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+#info p
+{
+    font-size:14px;
+}
+#catbalk
+{
+    height:30px;
+    margin-top:2px;
+    width:96%;
+    margin-left:2%;
+    margin-right:2%;
+    background-color:#D8D8D8;
+    float:left;
+}
+#homeknop
+{
+    height:30px;
+    width:30px;
+    background-color: white;
+    float:left;
+}
+#homeknop img
+{
+    height:30px;
+    width:30px;
+    float:left;
+}
+#catlist
+{
+    width:95%;
+    height:30px;
+}
+#catlist button
+{
+    border:0px;
+    color:black;
+    background-color: inherit;
+    margin-top:5px;
+}
+.horizontallist
+{
+    display:inline;  
+    padding:0px;
+}
+@media screen and (max-width:770px)
+{
+    #inloggen a
+    {
+        float:left;
+        height:100%;
+        font-size: 0px;
+    } 
+    #inloggen img
+    {
+        width:25px;
+    }
+}
+@media screen and (max-width:570px)
+{
+    .delete
+    {
+        font-size: 0px;
+        width:0px;
+        height:0px;
+        padding:0px;
+        margin:0px;
+    }
+    #inloggen button
+    {
+        float:left;
+    }
+
+}
+@media screen and (max-width:450px)
+{
+    .delete2
+    {
+        font-size: 0px;
+        width:0px;
+        height:0px;
+        padding:0px;
+        margin:0px;
+    }
+
+}
+@media screen and (max-width:425px)
+{
+#homeknop
+    {
+        width:0px;
+        height:0px;
+        background-image:none;
+    }
+    #homeknop img
+    {
+        width:0px;
+        height:0px;
+    }
+}

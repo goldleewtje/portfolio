@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+
+* {
+ margin: 0px;
+ padding: 0px;	
+ font-family: 'Arial', sans-serif
+}
+
+body {
+	background-image:url(img/achtergrond.png);
+	background-repeat: no-repeat;
+}
+
+#mainContainer {
+	width: 1020px;
+	height: 607px;
+	margin: 0px auto;
+	background-color: rgba(35, 39, 39, 0.8);
+	margin-top: 150px;
+}
+	
+.headers {
+	width: 255px;
+	height: 40px;
+	background-color: rgba(35,39,39,1);
+	float: left;
+	padding-top: 10px;
+}
+	
+#menu {
+	width: 1020px;
+	height: 35px;
+	background-color: black;
+	float: left;
+}
+
+p {
+	color: white;
+    line-height: 35px;
+	font-size: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+h1 {
+	font-size: 20px;
+	color: white;	
+}
+
+button {
+	background-color: rgba(35,39,39,1);
+	border: none;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 2px 26px;
+	outline: none;
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;		
+}
+    button:hover{
+        background-color: black
+    }
+    #header button{
+            width: 255px;
+            height: 55px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border: #232727;
+            background-color: #232727;
+            float: left;
+            font-size: 20px;
+        }
+        #header button:hover{
+            background-color:  black;
+        }
+</style>
+</head>
+
+<body>
+<center>
+			<div id="mainContainer">
+            
+       				<div id="header">
+        <button onclick="window.location= 'Profiel(Admin).html'">Profiel</button>
+        <button onclick="window.location= 'Contacten(Admin).html'">Contacten</button>
+        <button onclick="window.location= 'ledenlijst.html'">Leden</button>
+        <button onclick="window.location= 'Zoekpagina(Admin).html'">Zoeken</button>
+            <div id="menu">
+                <p>Zoekresultaten</p>
+            </div>
+        </div>
+                           
+</center>
+</body>
+</html>
+

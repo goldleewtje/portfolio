@@ -1,0 +1,46 @@
+table
+{
+	margin: 0 auto;	
+}
+.Producten
+{
+	padding-right:10px;
+}
+.LaatMeer
+{
+		
+}
+
+/*---------------------------------------------------------
+  M E D I A   Q U E R I E S
+----------------------------------------------------------- */
+
+@media only screen and (max-width: 1263px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+    #footer {
+        height: 160px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 509px) {
+    #footer {
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 388px) {
+    #footer {
+        height: 200px;
+    }
+}

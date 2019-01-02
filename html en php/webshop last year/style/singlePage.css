@@ -1,0 +1,93 @@
+#singlePageContent {
+    width: 850px;
+    min-height: 100px;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+
+#div1 {
+    float: left;
+    width: 329px;
+    min-height: 100px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#div2 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#div3 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#hoofdImg {
+    width: 329px;
+    height: 218px;
+    float: left;
+}
+.kleinImg {
+    width: 108px;
+    height: 72px;
+    float: left;
+}
+.groteText {
+    font-family: 'Arial Vet', 'Arial Standaard', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #0069B4;
+    font-size: 32px;
+}
+.normaleText {
+    font-family: "Arial Standaard", Arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: normal;
+}
+
+#winkelButton {
+
+    width: 372px;
+    height: 53px;
+
+    box-shadow: none;
+    font-family: "Arial Vet", "Arial Standaard", Arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    background-color: rgba(0, 204, 51, 1);
+    color: rgb(255, 255, 255);
+}
+
+/*---------------------------------------------------------
+  M E D I A   Q U E R I E S
+----------------------------------------------------------- */
+
+@media only screen and (max-width: 1263px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 840px) {
+    #singlePageContent {
+        width: 460px;
+    }
+}
+@media only screen and (max-width: 509px) {
+
+}
+
+@media only screen and (max-width: 388px) {
+
+}

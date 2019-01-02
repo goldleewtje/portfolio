@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#categorieBeheer{
+    max-width: 1700px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+table{
+    max-width: 600px;
+}
+table tr>td:nth-child(1){
+width: auto;
+
+}
+.categorieHeader {
+    font-size: 20px;
+    font-weight: bold;
+}
+.inputBox {
+    float: left;
+
+}
+
+#tableHeader {
+    font-size: 20px;
+    font-weight: bold;
+}
+table tr > td:not(:first-child) {
+
+}
+a{
+    text-decoration: none;
+}
+#plus{
+    font-size: 25px;
+}
+table td{
+    font-family: sans-serif;
+    border-bottom: solid black 1px;
+}
+table td{
+    padding: 6px 0;
+}
+input{
+    font-family: sans-serif;
+    font-size: 16px;    
+}
+body
+{
+    margin:0;
+    font-family: sans-serif;
+    padding: 0;
+}

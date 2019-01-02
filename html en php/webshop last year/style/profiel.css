@@ -1,0 +1,13 @@
+#mijnInformatie {
+    width: 300px;
+    min-height:100px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textBox {
+    width: 300px;
+    margin-bottom: 10px;
+
+}

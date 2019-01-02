@@ -1,0 +1,6 @@
+Productnaam: Aantal: totaal bedrag:
+Laptop 6 	1 	5
+Productnaam: Aantal: totaal bedrag:
+Laptop 6 	1 	300
+Productnaam: Aantal: totaal bedrag:
+Laptop 7 	1 	300

@@ -1,0 +1,162 @@
+#registration {
+	height: 400px;	
+	width: 800px;
+	float:left;
+}
+
+#regForm {
+	width: 340px;
+	float:left;
+	align-content: center;
+}
+
+#regButton {
+	border-width: 0px;
+    width: 324px;
+    height: 46px;
+    font-family: arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+	background-color: rgba(0, 204, 51, 1);
+}
+
+#accountRedenen {
+	width: 400px;
+	height: 100px;
+	float:left;
+	margin-top: 35px;
+	margin-left:10px;
+}
+
+.accountRedenText {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.regTextbox {
+	width:320px;
+	height:30px;
+	padding-top:1px;
+	font-family:arial;
+	font-size:20px;
+}
+
+.largeBlue {
+	
+	font-family:arial;
+	font-size:32px;
+	font-weight:700;
+	color: rgb(0, 105, 180);
+	margin:0px;
+}
+
+.mediumBlue {
+	font-family:arial;
+	font-size:18px;
+	font-weight:700;
+	color: rgb(0, 105, 180);
+	margin:0px;
+}
+
+.grayText {
+	font-family: arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+	color: rgb(134, 134, 134);
+}
+
+span {
+	font-family:arial;
+	font-size:14px;
+}
+
+/*---------------------------------------------------------
+  M E D I A   Q U E R I E S
+----------------------------------------------------------- */
+
+@media only screen and (max-width: 1263px) {
+	footer {
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	#crasatGeheel {
+		padding-left: 5%;
+	}
+
+	#formulier {
+		padding-left: 5%;
+	}
+	footer {
+		height: 600px;
+	}
+	footer #kaas {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	#subscribeInput {
+		width: 100%;
+	}
+	footer div {
+		margin-bottom: 50px;
+	}
+	footer #kaas {
+		margin-top: 70px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	#registration {
+		width: 90%;
+		height: 800px;
+	}
+
+	.regTextbox {
+		width:95%;
+		height:30px;
+		padding-top:1px;
+		font-family:arial;
+		font-size:20px;
+	}
+	#regForm {
+		width: 90%;
+		float:left;
+		align-content: center;
+	}
+	#accountRedenen {
+		width: 90%;
+		height: 150px;
+		float:left;
+		margin-top: 35px;
+		margin-left:10px;
+	}
+	#regButton {
+		border-width: 0px;
+		width: 95%;
+		height: 46px;
+		font-family: arial;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 18px;
+		color: #FFFFFF;
+		background-color: rgba(0, 204, 51, 1);
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#registration {
+		width: 100%;
+	}
+
+	.regTextbox {
+		width:95%;
+		height:30px;
+		padding-top:1px;
+		font-family:arial;
+		font-size:20px;
+	}
+}

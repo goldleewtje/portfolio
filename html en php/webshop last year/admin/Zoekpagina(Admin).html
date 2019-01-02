@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+* {
+ margin: 0px;
+ padding: 0px;	
+}
+
+body {
+	background-image:url(img/achtergrond.png);
+	background-repeat: no-repeat;
+	font-family: roboto;
+}
+
+#mainContainer {
+	width: 1020px;
+	height: 607px;
+	margin: 0px auto;
+	background-color: rgba(35, 39, 39, 0.8);
+	margin-top: 150px;
+}
+.headers {
+	width: 255px;
+	height: 40px;
+	background-color: rgba(35,39,39,1);
+	float: left;
+	padding-top: 10px;
+}
+
+	
+#menu {
+	width: 1010px;
+	height: 35px;
+	background-color: black;
+	float: left;
+	padding-left: 10px;
+    line-height: 35px;
+}
+
+p {
+	color: white;
+	font-size: 20px;
+    float: left
+}
+
+button {
+	background-color: rgba(35,39,39,1);
+	border: none;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 2px 26px;
+	outline: none;
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;		
+}
+
+
+.onzin {
+	font-size: 20px;
+	color: white;
+}
+
+.input {
+	width: 300px;
+	height: 40px;
+	margin: 10px 0 0 0;
+	font-size: 24px;
+}
+
+#submitButton {
+	width: 305px;
+    height: 55px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: #232727;
+    background-color: #232727;
+    float: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
+    #submitButton:hover{
+        background-color: black;
+    }
+    #header button{
+            width: 255px;
+            height: 55px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border: #232727;
+            background-color: #232727;
+            float: left;
+            font-size: 20px;
+        }
+        #header button:hover{
+            background-color:  black;
+        }
+table {
+	padding-top: 60px;	
+}
+    
+</style>
+</head>
+
+<body>
+<center>
+	<div id="mainContainer">
+          
+        <div id="header">
+        <button onclick="window.location= 'Profiel(Admin).html'">Profiel</button>
+        <button onclick="window.location= 'Contacten(Admin).html'">Contacten</button>
+        <button onclick="window.location= 'ledenlijst.html'">Leden</button>
+        <button onclick="window.location= 'Zoekpagina(Admin).html'">Zoeken</button>
+        <div id="menu">
+            <p>Zoeken</p>
+        </div>
+    </div>
+                                                                                    
+                    	<table id="zoekpagina">
+                        <form name="SearchPage" action="Zoekresultaten(Admin).html">
+                        
+                            <tr>
+                            <td class="onzin">Voornaam:</td>
+                            <td><input type="text" name="Voornaam" class="input"></td>
+                            </tr>
+                                                        
+                                <tr>
+                                <td class="onzin">Achternaam:</td>
+                                <td><input type="text" name="Achternaam" class="input"></td>
+                                </tr>
+                                                                
+                                    <tr>
+                                    <td class="onzin">Adres:</td>
+                                    <td><input type="text" name="Adres" class="input"></td>
+                                    </tr>
+                                                        
+                                        <tr>
+                                        <td class="onzin">Plaats:</td>
+                                        <td><input type="text" name="Plaats" class="input"></td>
+                                        </tr>
+                                                        
+                                            <tr>
+                                            <td class="onzin">Postcode:</td>
+                                            <td><input type="text" name="Postcode" class="input"></td>
+                                            </tr>
+                                                        
+                                                <tr>
+                                                <td></td>
+                                                
+                                                   <td>
+                                                   <button type="submit" id="submitButton" onclick="window.location= 'Zoekpresultaten(Admin).html'">Zoeken</button>
+                                                   </td>
+                                                   </tr>
+                                                    
+                         </form>
+                         </table>
+</center>
+
+</body>
+</html>
+

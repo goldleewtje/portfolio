@@ -1,0 +1,39 @@
+<?php
+									if(isset($_COOKIE["Winkelmand"]))
+									{
+									
+									$Product = json_decode($_COOKIE["Winkelmand"]);
+									if(count(json_decode($_COOKIE["Winkelmand"])) == 1)
+										{
+											foreach($Product as $testen)
+											{
+											echo '<tr>';
+											echo '<td>' . $testen[1] . '</td>';
+											echo '<td>' ;
+											echo '<td> &#8364;' . $testen[0] . '</td>';
+											echo '</tr>';
+											}
+										}
+									else
+										{
+											$Product = json_decode($_COOKIE["Winkelmand"]);
+											for($x = 0; $x < count($Product); $x++)	
+											{
+													echo '<tr>';
+													echo '<td>' . $Product[$x][1] . '</td>';
+													echo '<td>' ;
+													echo '<td> &#8364;' . $Product[$x][0] . '</td>';
+													echo '</tr>';	
+											}
+											/*for($x = 0; $x <= sizeof($Product) - 1; $x++)
+											{
+												for($)
+												echo '<tr>';
+												echo '<td>' . $Product[$x][1] . '</td>';
+												echo '<td>' ;
+												echo '<td> &#8364;' . $Product[$x][0] . '</td>';
+												echo '</tr>';	
+											}*/
+										}
+									}
+								 ?>

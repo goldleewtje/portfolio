@@ -1,0 +1,64 @@
+#footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 105, 180, 1);
+
+}
+.footerText {
+    color: white;
+    font-size: 14px;
+}
+
+#verzendKnop {
+    background-color: rgba(0, 105, 180, 1);
+    width: 30%;
+
+}
+
+#emailForm {
+    color:black;
+    width:49%;
+    height: 18px;
+
+    margin-top: 3px;
+    margin-right: 1%;
+}
+
+
+.socialMedia {
+    margin-left: 10%;
+}
+
+/*---------------------------------------------------------
+  M E D I A   Q U E R I E S
+----------------------------------------------------------- */
+
+@media only screen and (max-width: 1263px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+    #footer {
+        height: 160px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 509px) {
+    #footer {
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 388px) {
+    #footer {
+        height: 200px;
+    }
+}

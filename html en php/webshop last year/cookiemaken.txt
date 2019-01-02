@@ -1,0 +1,11 @@
+setcookie("rowPrijs",  $row['Prijs'], time() + (86400 * 30), "/");
+		setcookie("rowNaam",  $row['Naam'], time() + (86400 * 30), "/");
+		if(isset($_COOKIE["Winkelmand"]))
+		{
+				
+		}
+		else
+		{
+		$cookieValue = '';
+		setcookie("Winkelmand", " ", time() + (86400 * 30), "/");
+		}

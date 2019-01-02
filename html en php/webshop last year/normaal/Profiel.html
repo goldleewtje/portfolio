@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial;
+        }
+        .zwart
+        {
+            background-color:#000000;
+        }
+        body{
+            background-image:url(img/achtergrond.png);
+            background-repeat:no-repeat;
+        }
+        #mainContainer{
+            width: 1020px;
+            height: 610px;
+            margin: 0px auto;
+            background-color: rgba(35, 39, 39, 0.8);
+            margin-top: 150px;
+
+        }
+        #header{
+            background-color: #000000;
+            height: 90px;
+        }
+        #header button{
+            width: 340px;
+            height: 55px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border: #232727;
+            background-color: #232727;
+            float: left;
+            font-size: 20px;
+        }
+        #header button:hover{
+            background-color:  black;
+        }
+        
+        button:focus, button:active{
+            outline:none;
+        }
+        #topnaam
+        {
+            background-color:black;
+            width:1020px;
+            line-height: 35px;
+            height: 35px;
+        }
+        #topnaam p
+        {
+            color:white;
+            font-size:24px;
+            padding-left:10px;
+            line-height:35px;
+
+        }
+        #foto
+        {
+            width:1020px;
+            height:160px;
+        }
+        #foto img
+        {
+            width:145px;
+            height:138px;
+            margin-left:20px;
+            margin-top: 10px;
+            margin-bottom:10px;
+            border-radius:100px;
+        }
+        #naam
+        {
+            height:95px;
+            width:1020px;
+
+        }
+        #naam p
+        {
+            padding-top:2px;
+            color:white;
+            font-size:20px;
+            padding-left:20px;
+            margin:3px;
+            line-height:20px;
+            text-align:left;
+            padding-bottom:7px;
+        }
+        #com
+        {
+            height:224px;
+            width:1020px;
+        }
+        #com p
+        {
+            padding-top:2px;
+            padding-bottom:7px;
+            color:white;
+            font-size:20px;
+            padding-left:20px;
+            margin:3px;
+            line-height:25px;
+        }
+        #menu{
+            background-color: black;
+            height: 35px;
+            font-size: 24px;
+            color: white;
+            padding-left: 10px;
+            line-height: 35px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="mainContainer">
+    <div id="header">
+        <button onclick="window.location= 'Profiel.html'">Profiel</button>
+        <button onclick="window.location= 'ContactenNieuw.html'">Contacten</button>
+        <button onclick="window.location= 'Zoekpagina.html'">Zoeken</button>
+        <div id="menu">
+            <p>Profiel</p>
+        </div>
+    </div>
+    
+    <div id="foto">
+        <img src="img/profiel.jpg"></div>
+    
+    <div id="topnaam"><p>Naam</p></div>
+    
+        <div id="naam"><p> Voornaam: Mart </p>
+            <p> Tussenvoegsel: - </p>
+            <p> Achternaam: Bent </p>
+        </div>
+    
+    <div id="topnaam"> <p> Communicatie </p> </div>
+    
+    <div id="com"><p> Adres: Van Eerdenweg 8 </p>
+        <p> Plaats: Winterswijk-Meddo </p>
+        <p> Postcode: 7104 BJ </p>
+        <p> Telefoon: 0543569464 </p>
+        <p> Email: Martbent@upcmail.nl </p>
+    </div>
+
+</div>
+</body>
+</html>
